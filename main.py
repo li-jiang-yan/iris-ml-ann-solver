@@ -23,7 +23,7 @@ A = StandardScaler().fit(A).transform(A)
 A_train, A_test, b_train, b_test = train_test_split(A, b, random_state=1)
 
 # Train model
-x = Input(shape=(4,))
+x = Input(shape=(num_features,))
 h = Dense(num_classes ** num_features, activation="sigmoid")(x)
 y = Dense(num_classes, activation="sigmoid")(h)
 model = Model(x, y)
