@@ -1,2 +1,2 @@
-# iris-ml-ann-solver
-This endeavors to use artificial neural networks to classify samples from the Iris machine learning dataset.
+# Iris Classification with TensorFlow/Keras
+Built a neural network using TensorFlow Keras to classify Iris flower species.
